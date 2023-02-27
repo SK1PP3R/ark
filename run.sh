@@ -25,6 +25,7 @@ function stop {
 cd /ark
 [ ! -d /ark/template ] && mkdir /ark/template
 cp /home/steam/arkmanager.cfg /ark/template/arkmanager.cfg
+cp /home/steam/arkmanager.cfg /ark/arkmanager.cfg
 cp /home/steam/crontab /ark/template/crontab
 [ ! -f /ark/arkmanager.cfg ] && cp /home/steam/arkmanager.cfg /ark/arkmanager.cfg
 [ ! -d /ark/log ] && mkdir /ark/log
