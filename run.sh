@@ -27,6 +27,9 @@ cd /ark
 cp /home/steam/arkmanager.cfg /ark/template/arkmanager.cfg
 cp /home/steam/arkmanager.cfg /ark/arkmanager.cfg
 cp /home/steam/crontab /ark/template/crontab
+
+rm -rf /home/steam/arkmanager.cfg
+
 [ ! -f /ark/arkmanager.cfg ] && cp /home/steam/arkmanager.cfg /ark/arkmanager.cfg
 [ ! -d /ark/log ] && mkdir /ark/log
 [ ! -d /ark/backup ] && mkdir /ark/backup
